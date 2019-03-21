@@ -11,10 +11,7 @@ module.exports = {
     },
     output: {
         filename: `[name].js`,
-        path: path.resolve(__dirname, 'dist/dev')，
-        library: MithrilWidgets,
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        path: path.resolve(__dirname, 'public/dist/dev')
     },
     module: {
         rules: [{
@@ -43,7 +40,7 @@ module.exports = {
                 "NODE_ENV": JSON.stringify("development")
             }
         }),
-        new cleanWebpackPlugin(['dist/dev'], {
+        new cleanWebpackPlugin(['public/dist/dev'], {
             root: __dirname,
             verbose: true,
             dry: false
