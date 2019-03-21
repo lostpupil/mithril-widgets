@@ -29,12 +29,13 @@ export default class simpleSearchTable {
         }
     }
     next_page() {
-        let max = this.ds_count()
+        const max = this.ds_count()
         if (this.page < max - 1) {
             this.page += 1
         }
     }
     query(vnode) {
+        this.page = 0
         const options = {
             keys: this.headers.map(({
                 key,

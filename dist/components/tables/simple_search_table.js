@@ -70,6 +70,7 @@ function () {
   }, {
     key: "query",
     value: function query(vnode) {
+      this.page = 0;
       var options = {
         keys: this.headers.map(function (_ref) {
           var key = _ref.key,
