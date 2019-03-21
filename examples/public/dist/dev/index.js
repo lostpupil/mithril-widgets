@@ -1406,7 +1406,7 @@ var tbl_ds = [];
 times(66)(function (i) {
   tbl_ds.push({
     id: i,
-    username: Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15),
+    username: Math.random().toString(36).substring(2, 15),
     lorem: Math.random().toString(36).substring(2, 15)
   });
 });
@@ -1414,7 +1414,7 @@ times(66)(function (i) {
 var App =
 /*#__PURE__*/
 function () {
-  function App(vnode) {
+  function App() {
     _classCallCheck(this, App);
   }
 
@@ -1425,12 +1425,11 @@ function () {
         headers: tbl_headers,
         ds: tbl_ds,
         limit: 10
+      }), __WEBPACK_IMPORTED_MODULE_0_mithril___default()('h3.is-size-3', 'Table With Search'), __WEBPACK_IMPORTED_MODULE_0_mithril___default()(__WEBPACK_IMPORTED_MODULE_1_mithril_widgets___default.a.simpleSearchTable, {
+        headers: tbl_headers,
+        ds: tbl_ds,
+        limit: 10
       })]);
-    }
-  }, {
-    key: "oncreate",
-    value: function oncreate() {
-      console.log("where amazing happens...");
     }
   }]);
 
