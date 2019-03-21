@@ -11,7 +11,10 @@ module.exports = {
     },
     output: {
         filename: `[name].js`,
-        path: path.resolve(__dirname, 'dist/dev')
+        path: path.resolve(__dirname, 'dist/dev')，
+        library: MithrilWidgets,
+        libraryTarget: 'umd',
+        umdNamedDefine: true
     },
     module: {
         rules: [{

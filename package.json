@@ -1,11 +1,11 @@
 {
     "name": "mithril-widgets",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "",
-    "main": "dist/prod/index.js",
+    "main": "dist/index.js",
     "scripts": {
-        "dev": "webpack --config webpack.dev.config.js -w",
-        "prod": "webpack --config webpack.prod.config.js"
+        "build":"babel src -d dist",
+        "dev": "webpack --config webpack.dev.config.js -w"
     },
     "repository": {
         "type": "git",
