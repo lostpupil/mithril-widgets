@@ -62,30 +62,30 @@ m.route(root, "/", {
 
 property name | value | required
 --------------------------------
-headers|vnode.attrs.headers|true
-ds|vnode.attrs.ds|true
-page|0|false
-limit|vnode.attrs.limit(10)|false
+headers|vnode.attrs.headers|true   
+ds|vnode.attrs.ds|true   
+page|0|false  
+limit|vnode.attrs.limit(10)|false  
 
 
 ### simpleSearchTable
 
 property name | value | required
 --------------------------------
-headers|vnode.attrs.headers|true
-ds|vnode.attrs.ds|true
-page|0|false
-limit|vnode.attrs.limit(10)|false
-q|input('')|false
+headers|vnode.attrs.headers|true  
+ds|vnode.attrs.ds|true  
+page|0|false  
+limit|vnode.attrs.limit(10)|false  
+q|input('')|false  
 
 ### remoteSearchTable
 
 property name | value | required
 --------------------------------
-headers|vnode.attrs.headers|true
-ds_url|vnode.attrs.ds_url|true
-page|0|false
-limit|vnode.attrs.limit(10)|false
-has_prev|false|false
-has_next|false|false
-total_pages|0|false
+headers|vnode.attrs.headers|true  
+ds_url|vnode.attrs.ds_url|true  
+page|0|false  
+limit|vnode.attrs.limit(10)|false  
+has_prev|false|false  
+has_next|false|false  
+total_pages|0|false  
