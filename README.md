@@ -70,3 +70,10 @@ m(MithrilWidgets.simpleSearchTable, {
 |has_prev|false|false|
 |has_next|false|false|
 |total_pages|0|false|
+
+## TODO
+
+* example styling
+* nav widget
+* sidebar widget
+* modal widget
