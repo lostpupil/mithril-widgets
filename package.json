@@ -1,6 +1,6 @@
 {
     "name": "mithril-widgets",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "dist/prod/index.js",
     "scripts": {
