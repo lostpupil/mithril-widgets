@@ -1,0 +1,45 @@
+{
+    "name": "mithril-widgets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/prod/index.js",
+    "scripts": {
+        "dev": "webpack --config webpack.dev.config.js -w",
+        "prod": "webpack --config webpack.prod.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lostpupil/mithril-widgets.git"
+    },
+    "keywords": [
+        "mithril",
+        "bulma",
+        "widgets"
+    ],
+    "author": "pinkbanana",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lostpupil/mithril-widgets/issues"
+    },
+    "homepage": "https://github.com/lostpupil/mithril-widgets#readme",
+    "dependencies": {
+        "fuse.js": "^3.4.4",
+        "lodash": "^4.17.11",
+        "mithril": "^1.1.6",
+        "sweetalert": "^2.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/preset-env": "^7.4.1",
+        "babel-loader": "^8.0.0-beta.0",
+        "clean-webpack-plugin": "^0.1.17",
+        "css-loader": "^1.0.0",
+        "node-sass": "^4.9.3",
+        "qiniu": "^7.2.1",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "uglifyjs-webpack-plugin": "^1.1.6",
+        "webpack": "^3.12.0",
+        "webpack-stream": "^4.0.0"
+    }
+}
