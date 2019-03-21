@@ -2,6 +2,9 @@
 
 It is built upon mithril.js and bulma.css.
 
+## Demo
+[Demo](https://lostpupil.github.io/mithril-widgets)
+
 ## How to use
 
 ```javascript
@@ -32,6 +35,8 @@ m(MithrilWidgets.simpleSearchTable, {
     headers: tbl_headers,
     ds: tbl_ds
 })
+```
+
 ## Widgets
 
 ### simpleTable
